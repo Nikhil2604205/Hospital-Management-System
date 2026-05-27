@@ -1,45 +1,69 @@
-# Hospital Management System
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
 
-A Hospital Management System developed using Java Swing, JDBC, and MySQL.
+    <style>
+        body{
+            font-family: Arial;
+            background:#f4f4f4;
+            text-align:center;
+            padding:50px;
+        }
 
-## 📌 Project Overview
+        .box{
+            background:white;
+            padding:40px;
+            border-radius:10px;
+            width:60%;
+            margin:auto;
+            box-shadow:0 0 10px gray;
+        }
 
-This project helps manage hospital operations such as:
+        h1{
+            color:#007bff;
+        }
 
-- Patient Management
-- Doctor Management
-- Appointment Booking
-- Login System
-- Database Connectivity
+        a{
+            display:inline-block;
+            margin-top:20px;
+            padding:12px 20px;
+            background:#007bff;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
+    </style>
+</head>
 
-The application is built as a desktop application using Java Swing for UI and MySQL for database management.
+<body>
 
----
+<div class="box">
 
-## 🚀 Technologies Used
+    <h1>Hospital Management System</h1>
 
-- Java
-- Java Swing
-- JDBC
-- MySQL
-- IntelliJ IDEA
+    <p>
+        This project is developed using Java Swing, JDBC and MySQL.
+    </p>
 
----
+    <p>
+        Features:
+    </p>
 
-## 📂 Project Features
+    <ul style="text-align:left; display:inline-block;">
+        <li>Patient Management</li>
+        <li>Doctor Management</li>
+        <li>Appointment Booking</li>
+        <li>Login System</li>
+    </ul>
 
-✅ Login System  
-✅ Add Patient  
-✅ Doctor Records  
-✅ Appointment Booking  
-✅ Database Connectivity  
-✅ User-Friendly Interface  
+    <br>
 
----
+    <a href="https://github.com/YOUR_USERNAME/Hospital-Management-System">
+        View GitHub Project
+    </a>
 
-## 🗄️ Database
+</div>
 
-Database Name:
-
-```sql
-hospital_db
+</body>
+</html>
